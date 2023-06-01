@@ -1,0 +1,70 @@
+@font-face {
+	font-family: GoodTimes;
+	src: url("./font.otf");
+}
+
+#main {
+	background-image: url("./bg.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	height: 1000px;
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin: -20px 0px 0px 0px;
+	border: none;
+}
+
+#navbar {
+	background-color: #ffffff;
+	text-align: center;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0px;
+	border: 5px solid white;
+	height: 90px;
+	font-family: GoodTimes;
+	z-index: 2;
+}
+
+.nav-title {
+	position: relative;
+	top: -10px;
+	margin: 10px 0px 10px 0px;
+}
+
+#display-window {
+	background: rgba(220, 220, 220, 50%);
+	position: relative;
+	top: 100px;
+	width: 600px;
+	height: 300px;
+	z-index: 1;
+	border-radius: 25px;
+	color: white;
+}
+
+#display-title {
+	position: relative;
+	font: 35px GoodTimes;
+}
+
+#Form {
+	font: 20px GoodTimes;
+}
+
+#gallery {
+	position: relative;
+	top: 200px;
+	font: 20px GoodTimes;
+	color: white;
+	height: 360px;
+	overflow: scroll;
+}
+
+th, td {
+	padding: 15px;
+	text-align: center;
+}
